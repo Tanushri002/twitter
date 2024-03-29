@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login-container {
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            text-align: center;
+        }
+        
+        .logo {
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"],
+        input[type="password"] 
+        {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        
+    
+        
+        .forgot-password
+        {
+            font-size: 12px;
+            color: #003569;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img class="logo" src="Logo_Twitter.png" alt="twitter Logo" width="100">
+        <form action="#" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button id="login">login</button>
+
+<script>
+  // Select the button element
+  var button = document.getElementById('login');
+  
+  // Apply CSS styles
+  button.style.backgroundColor = 'blue';
+  button.style.color = 'white';
+  button.style.border = 'none';
+  button.style.padding = '10px 20px';
+  button.style.cursor = 'pointer';
+</script>
+        </form>
+        <center><a class="forgot-password" href="#">Forgot password?| sign up?</a></center>
+    </div>
+</body>
+</html>
